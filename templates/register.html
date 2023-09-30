@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="hero is-white is-fullheight has-business-background">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6">
+                    <div class="card" style="padding: 1rem;">
+                        <div class="card-header">
+                            <div class="top-header">
+                                <img class="image is-rounded is-96x96 iconest" src="https://storage.googleapis.com/sticker-prod/Uf1s7MhrRAtzpqOoVihZ/cover.thumb256.png" alt="">
+                            </div>
+                        </div> <br>
+                        <form>
+                            <h1 class="subtitle">Nombre de usuario</h1>
+                            <input type="text" class="input" placeholder="Escoge un nombre de usuario">
+                            <h1 class="subtitle">Contraseña</h1>
+                            <input type="text" class="input" placeholder="Escoge una contraseña"><br>
+                            <input type="Submit" class="button is-dark" value="Registrar">
+                            <p>¿Ya tienes una cuenta? <a class="has-text-danger" href='/login'>Inicia Sesión</a></p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="column is-6">
+                    <h1 class="big-title has-text-white">Registro de nuevo Huevon</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

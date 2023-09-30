@@ -1,0 +1,124 @@
+.has-dog-background{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/international_dog_day_1692974397743_1692974414085.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.has-business-background{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.inc.com/uploaded_files/image/1920x1080/getty_962467272_361075.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.has-licenciado-background{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imagenes.razon.com.mx/files/image_940_470/files/fp/uploads/2022/01/22/61ec94f3b02b1.r_d.333-170.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.has-ingeniero-background{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imgv2-2-f.scribdassets.com/img/document/361107985/original/b06876a1a5/1694392496?v=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.has-mandado-background{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2021/10/21/perro-recados.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.serious{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("https://dbdzm869oupei.cloudfront.net/img/sticker/preview/15971.png");
+}
+
+.content{
+  padding: 2rem;
+}
+
+.navbar{
+    position: fixed;
+    min-width: 100%;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-transparent .navbar-item, .navbar-transparent .navbar-link{
+  color: aliceblue !important;
+}
+
+.navbar-transparent .navbar-item:hover, .navbar-transparent .navbar-link:hover{
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.navbar-transparent .navbar-link:focus{
+  background-color: transparent !important;
+  color: black;
+}
+
+.navbar-transparent .navbar-dropdown {
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-white {
+  background-color: white !important;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: -1px 4px 80px -9px rgba(0,0,0,0.29);
+-webkit-box-shadow: -1px 4px 80px -9px rgba(0,0,0,0.29);
+-moz-box-shadow: -1px 4px 80px -9px rgba(0,0,0,0.29);
+}
+
+.nopadding-hero{
+  padding: 0;
+}
+
+.transparent{
+  background-color: transparent;
+}
+
+.port-title{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 12rem;
+}
+
+.big-title{
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.top-header{
+  height: 100%;
+  display:inline-flex;
+  align-items: center;
+}
+
+.is-rounded{
+  border-radius: 50%;
+}
+
+.fixed-background{
+  background-attachment: fixed;
+}
+
+.iconest {
+  outline: 0.5rem solid white;
+  transform: translateY(-50%);
+}
+
+form{
+  min-width: 100%;
+}
+
+input{
+  margin-bottom: 1rem;
+}

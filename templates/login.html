@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="hero is-white is-fullheight has-ingeniero-background">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6">
+                    <h1 class="big-title has-text-white">Iniciar Sesión</h1>
+                </div>
+
+                <div class="column is-6">
+                    <div class="card" style="padding: 1rem;">
+                        <div class="card-header">
+                            <div class="top-header">
+                                <img class="image is-rounded is-96x96 iconest" src="https://media.muckrack.com/profile/images/9034147/daniel-villagrasa.jpeg.256x256_q100_crop-smart.jpg" alt="">
+                            </div>
+                        </div> <br>
+                        <form>
+                            <h1 class="subtitle">Nombre de usuario</h1>
+                            <input type="text" class="input" placeholder="Ingrese su nombre de usuario">
+                            <h1 class="subtitle">Contraseña</h1>
+                            <input type="text" class="input" placeholder="Ingrese su contraseña"><br>
+                            <input type="Submit" class="button is-dark" value="Iniciar Sesión">
+                            <p>¿Aún no tienes cuenta? <a class="has-text-danger" href="/register">Regístrate</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

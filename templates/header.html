@@ -1,0 +1,67 @@
+<header>
+    <nav class="navbar navbar-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img class="image" src="../static/img/logo2.png" alt="Logo" style="min-height: 4rem">
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Productos
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="/productos/razas-pequenas">
+                                Razas pequeñas
+                            </a>
+                            <a class="navbar-item" href="/productos/adulto">
+                                Adulto
+                            </a>
+                            <a class="navbar-item" href="/productos/cachorro">
+                                Cachorro
+                            </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="/comprar">
+                        Comprar
+                    </a>
+                    <a class="navbar-item" href="/nosotros">
+                        Nosotros
+                    </a>
+                    <a class="navbar-item" href="/contacto">
+                        Contacto
+                    </a>
+                </div>
+                <!-- Botón "Iniciar Sesión" a la derecha -->
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="/login">
+                                Iniciar Sesión
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Al desplazarse hacia abajo, cambia el color de la barra de navegación
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 300) {
+                // Cambia a la clase "navbar-white"
+                $(".navbar").removeClass("navbar-transparent").addClass("navbar-white");
+            } else {
+                // Cambia de nuevo a la clase "navbar-transparent"
+                $(".navbar").removeClass("navbar-white").addClass("navbar-transparent");
+            }
+        });
+    });
+</script>
